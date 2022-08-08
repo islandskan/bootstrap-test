@@ -4,7 +4,7 @@ The first assigment using Bootstrap, for the "IT - Tech for Women" course. Chose
 
 ## Demo
 
-<!-- [Demo](url) -->
+[Demo](https://islandskan-first-bootstrap.netlify.app/)
 
 ## Update
 
