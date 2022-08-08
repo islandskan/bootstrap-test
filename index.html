@@ -1,122 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Magnusson">
-    <meta property="og:description" content="Magnusson">
-    <meta property="twitter:description" content="Magnusson">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
-    <title>Bootstrap Test</title>
-</head>
-<body style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-  <header class="sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand logo" href="index.html">Magnusson</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Story</a>
-            <a href="#" class="nav-link">Nicknames</a>
-            <a class="nav-link" href="#">Gallery</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <div class="container w-75">
-      <div class="m-auto text-center container w-75">
-        <div class="mt-5 mb-5 container">
-          <h2 class="display-3">Story</h2>
-          <p class="lead mt-3 pb-4">
-            A cuddly little guy, that knows that he is handsome
-            and always manages to find new places to lay down on.
-          </p>
-          <p>
-            Magnusson is a 8 year old gentleman who is well aware that he is beautiful.
-            As the oldest of the cats, he knows how to set boundaries. He may seem a bit
-            pompous and can be grumpy before dinner, but under all that dense fur is
-            a lovesick goofball that just wants you all for himself. He would never admit
-            to it, but he is a momma’s boy for sure.
-          </p>
-        </div>
-      </div>
-      <div class="container w-75">
-        <div class="w-auto m-auto text-center">
-          <div class="mt-5 mb-5">
-          <h2 class="display-3">Nicknames</h2>
-          <p class="lead mt-3">
-            This cat has gathered a bunch of different nicknames.
-            Here are some of them.
-          </p>
-          </div>
-        </div>
-      <div class="container d-flex flex-row justify-content-around p-4">
-        <div class="card w-25">
-          <img src="/images/magnusson10.jpeg" class="card-img-top" alt="Gray and white laying in bed">
-          <div class="card-body">
-            <p class="card-title">Mange</p>
-            <p class="card-text mb-3">One of his first nicknames, made by me.</p>
-            <a href="#" class="btn btn-primary">Cutie</a>
-          </div>
-        </div>
-        <div class="card w-25">
-          <img src="/images/magnusson11.jpeg" class="card-img-top" alt="Two cats laying on a desk">
-          <div class="card-body">
-              <p class="card-title">Mangos</p>
-              <p class="card-text mb-3">Accidental nickname, made by my girlfriend.</p>
-              <a href="#" class="btn btn-primary">Cutie</a>
-          </div>
-          </div>
-          <div class="card w-25">
-            <img src="/images/magnusson09.jpeg" class="card-img-top" alt="Gray and white cat sitting with half body on desk">
-            <div class="card-body">
-              <p class="card-title">Sonen</p>
-              <p class="card-text mb-3">Made by me, translates to "The Son".</p>
-              <a href="#" class="btn btn-primary">Cutie</a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Magnusson" />
+        <meta property="og:description" content="Magnusson" />
+        <meta property="twitter:description" content="Magnusson" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@500&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+            rel="stylesheet"
+            id="bootstrap-css"
+        />
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+        <title>Bootstrap Test</title>
+        <style>
+            img {
+                height: auto;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body
+        style="
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+                sans-serif;
+        "
+    >
+        <header class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand logo" href="index.html">Magnusson</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarNavAltMarkup"
+                    >
+                        <div class="navbar-nav">
+                            <a class="nav-link" aria-current="page" href="#"
+                                >Home</a
+                            >
+                            <a class="nav-link" href="#">Story</a>
+                            <a href="#" class="nav-link">Nicknames</a>
+                            <a class="nav-link" href="#">Gallery</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container w-100">
+            <div class="m-auto text-center container">
+                <div class="mt-5 mb-5 container">
+                    <h2 class="display-3">Story</h2>
+                    <p class="lead mt-3 pb-4">
+                        A cuddly little guy, that knows that he is handsome and
+                        always manages to find new places to lay down on.
+                    </p>
+                    <p>
+                        Magnusson is a 8 year old gentleman who is well aware
+                        that he is beautiful. As the oldest of the cats, he
+                        knows how to set boundaries. He may seem a bit pompous
+                        and can be grumpy before dinner, but under all that
+                        dense fur is a lovesick goofball that just wants you all
+                        for himself. He would never admit to it, but he is a
+                        momma's boy for sure.
+                    </p>
+                </div>
             </div>
+            <div class="container">
+                <div class="w-auto m-auto text-center">
+                    <div class="mt-5 mb-5">
+                        <h2 class="display-3">Nicknames</h2>
+                        <p class="lead mt-3">
+                            This cat has gathered a bunch of different
+                            nicknames. Here are some of them.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="container d-flex flex-column flex-wrap p-4 col-md-10 flex-lg-row col-lg-12 flex-lg-nowrap"
+                >
+                    <div class="card p-3 mx-auto mb-3 mx-md-3">
+                        <img
+                            src="/images/magnusson10.jpeg"
+                            class="card-img-top"
+                            alt="Gray and white laying in bed"
+                        />
+                        <div class="card-body">
+                            <p class="card-title">Mange</p>
+                            <p class="card-text mb-3">
+                                One of his first nicknames, made by me.
+                            </p>
+                            <a href="#" class="btn btn-primary">Cutie</a>
+                        </div>
+                    </div>
+                    <div class="card p-3 mx-auto mb-3 mx-md-3">
+                        <img
+                            src="/images/magnusson11.jpeg"
+                            class="card-img-top"
+                            alt="Two cats laying on a desk"
+                        />
+                        <div class="card-body">
+                            <p class="card-title">Mangos</p>
+                            <p class="card-text mb-3">
+                                Accidental nickname, made by my girlfriend.
+                            </p>
+                            <a href="#" class="btn btn-primary">Cutie</a>
+                        </div>
+                    </div>
+                    <div class="card p-3 mx-auto mb-3 mx-md-3">
+                        <img
+                            src="/images/magnusson09.jpeg"
+                            class="card-img-top"
+                            alt="Gray and white cat sitting with half body on desk"
+                        />
+                        <div class="card-body">
+                            <p class="card-title">Sonen</p>
+                            <p class="card-text mb-3">
+                                Made by me, translates to "The Son".
+                            </p>
+                            <a href="#" class="btn btn-primary">Cutie</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-      </div>
-  </div>
-  <div class="container w-75">
-    <div class="row w-auto m-auto text-center">
-      <div class="col mt-5 mb-5">
-        <h2 class="display-3">Gallery</h2>
-        <p class="lead mt-3">
-          Obviously there is going to be pictures of this handsome boy
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-4">
-        <img src="/images/magnusson01.jpg" alt="Gray and white cat laying in bed" class="w-100 m-2">
-        <img src="/images/magnusson08.jpg" alt="Gray and white cat laying in a too small basket" class="w-100 m-2">
-      </div>
-      <div class="col-3">
-        <img src="/images/magnusson03.jpg" alt="Gray and white cat laying in a box" class="w-100 m-2">
-      </div>
-      <div class="col-5">
-        <img src="/images/magnusson06.jpg" alt="Gray and white cat sitting on desk in front of computer monitor" class="w-100 m-2">
-        <img src="/images/magnusson05.jpg" alt="Gray and white cat laying in laundry inside dryer" class="w-100 m-2" >
-      </div>
-    </div>
-  </div>
-</div>
-  <footer class="bg-dark text-center text-lg-start mt-5 pt-3 pb-3 container-fluid">
-    <div class="text-center p-3">
-      <p class="text-light">© Copyright</p>
-    </div>
-  </footer>
-</body>
+            <div class="container">
+                <div class="row w-auto m-auto text-center">
+                    <div class="col mt-5 mb-5">
+                        <h2 class="display-3">Gallery</h2>
+                        <p class="lead mt-3">
+                            Obviously there is going to be pictures of this
+                            handsome boy
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div
+                        class="col-md-6 d-md-flex flex-md-column justify-content-md-end col-lg-4 justify-content-lg-center"
+                    >
+                        <img
+                            src="/images/magnusson01.jpg"
+                            alt="Gray and white cat laying in bed"
+                            class="my-3 w-100"
+                            style="object-position: 10px -5px"
+                        />
+                        <img
+                            src="/images/magnusson08.jpg"
+                            alt="Gray and white cat laying in a too small basket"
+                            class="w-100 my-3"
+                        />
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <img
+                            src="/images/magnusson03.jpg"
+                            alt="Gray and white cat laying in a box"
+                            class="w-100 my-3"
+                        />
+                    </div>
+                    <div
+                        class="col-md-12 col-lg-4 d-lg-flex flex-lg-column justify-content-lg-center"
+                    >
+                        <img
+                            src="/images/magnusson06.jpg"
+                            alt="Gray and white cat sitting on desk in front of computer monitor"
+                            class="w-100 my-3"
+                        />
+                        <img
+                            src="/images/magnusson05.jpg"
+                            alt="Gray and white cat laying in laundry inside dryer"
+                            class="my-3 w-100"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer
+            class="bg-dark text-center text-lg-start mt-5 pt-3 pb-3 container-fluid"
+        >
+            <div class="text-center p-3">
+                <p class="text-light">© Copyright</p>
+            </div>
+        </footer>
+    </body>
 </html>
